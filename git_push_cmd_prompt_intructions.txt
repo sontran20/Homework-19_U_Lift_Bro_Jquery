@@ -1,0 +1,20 @@
+Microsoft Windows [Version 10.0.17134.112]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery>git clone https://github.com/sontran20/Homework-19_U_Lift_Bro_Jquery.git
+Cloning into 'Homework-19_U_Lift_Bro_Jquery'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery>git init
+Initialized empty Git repository in C:/Users/sontr/OneDrive - personalmicrosoftsoftware.uci.edu/Exercises/Homework_19-U_Lift_Bro_Jquery/.git/
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery>git add .
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery>git commit -m "1st Push"
+[master (root-commit) 9575d9d] 1st Push
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Homework-19_U_Lift_Bro_Jquery/TooCool4School.txt.txt
+
+
