@@ -1,0 +1,23 @@
+Microsoft Windows [Version 10.0.17134.112]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery\Homework-19_U_Lift_Bro_Jquery
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery\Homework-19_U_Lift_Bro_Jquery>git add .
+warning: CRLF will be replaced by LF in git_push_cmd_prompt_intructions.txt.
+The file will have its original line endings in your working directory.
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery\Homework-19_U_Lift_Bro_Jquery>git commit -m "Added second test file"
+[master (root-commit) c3c438d] Added second test file
+ 2 files changed, 21 insertions(+)
+ create mode 100644 TooCool4School.txt.txt
+ create mode 100644 git_push_cmd_prompt_intructions.txt
+
+C:\Users\sontr\OneDrive - personalmicrosoftsoftware.uci.edu\Exercises\Homework_19-U_Lift_Bro_Jquery\Homework-19_U_Lift_Bro_Jquery>git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 805 bytes | 161.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/sontran20/Homework-19_U_Lift_Bro_Jquery.git
+ * [new branch]      master -> master
