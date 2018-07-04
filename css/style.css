@@ -1,0 +1,183 @@
+
+
+.header{
+    height: 150px;
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+}
+
+.background
+{
+  background-image: url("../images/motivation_opacity.jpg");
+
+  /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.main{
+  /* height:400px;  Height is set is iPhone size which is 812x3 for retina displays
+     Header height of 150 is subtracted
+  */
+  height:662px;
+}
+
+body{
+        background-color: #101010;
+  }
+
+
+h1{
+  color:#ccb87e;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  }
+
+
+h2{
+  color:#ccb87e;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+h3{
+  color:#ccb87e;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h4{
+  color:#ccb87e;
+  font-family: "Stencil", serif;
+  font-weight: normal;
+  font-size: 55px;
+}
+
+h5{
+  color:#ccb87e;
+  font-family: "Stencil", serif;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+h6{
+  color:#ccb87e;
+  font-family: "Stencil", serif;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+p,li{
+  color: #ffffff;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  display:inline-block;
+}
+
+.icon{
+  width:128px;
+  height:128px;
+  display: inline-block;
+}
+
+.btn {
+    /* background-image: linear-gradient(to right, #BE9552 0%, #ccb87e 100%); */
+    border-radius: 0px;
+    border-width: .5px;
+    border-bottom-width: .5px;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Droid Sans", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width:150px;
+    z-index: 2;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.my-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-flex h6 {
+  padding-top: 50px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn-group {
+  width: 45%;
+  justify-content: center;
+}
+
+.btn span {
+    align-items: center;
+    background: #101010;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+}
+.btn:hover span {
+    background: transparent;
+}
+
+.carousel_size{
+  max-height: 400px;
+  width:90%;
+  margin:auto;
+
+}
+.signUp {
+  width: 300px;
+  height: 300px;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nextPicture{
+  background-image: url("../icons/fast_forward_icon.svg");
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-size: 100% 100%;
+}
+
+
+.previousPicture{
+  background-image: url("../icons/rewind_icon.svg");
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  /* background: transparent no-repeat center center; */
+  background-size: 100% 100%;
+}
