@@ -1,5 +1,4 @@
 
-
 .header{
     height: 150px;
     text-align: center;
@@ -11,7 +10,7 @@ body, html {
 
 .background
 {
-  background-image: url("../images/motivation_opacity.jpg");
+  background-image: url("../images/motivation_opacity_dark.jpg");
 
   /* Full height */
    height: 100%;
@@ -92,6 +91,7 @@ p,li{
 .icon{
   width:128px;
   height:128px;
+  /* position: relative; added to make button animate */
   display: inline-block;
 }
 
@@ -132,7 +132,7 @@ p,li{
 }
 
 .btn-group {
-  width: 45%;
+  width: 90%;
   justify-content: center;
 }
 
@@ -180,4 +180,13 @@ p,li{
   height: 45px;
   /* background: transparent no-repeat center center; */
   background-size: 100% 100%;
+}
+
+
+.movers{
+background:#98bf21;
+height:200px;
+width:200px;
+position:relative;
+
 }
