@@ -6,10 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-  <!-- JQuery Script which allows Jquery commands-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
@@ -32,27 +28,10 @@ gtag('config', 'UA-121981597-1');
 
 <!-- Background imaged is a class in the body tag so it fills the entire page -->
 <body class="background">
-    <div id="logo">
+    <div>
       <img src="icons/logo.svg" class="icon">
       <h1>U Lift Bro?</h1>
     </div>
-<!--
-
-//consider setting div class to "movers" which has a position attribute needed to move.
-<button id="move-logo">Move Logo</button>
-<script>
-    $(document).ready(function(){
-        $("#move-logo").click(function(){
-            $("#logo").animate({
-                left: '250px',
-                opacity: '0.5',
-                height: '150px',
-                width: '150px'
-            });
-        });
-    });
-</script> -->
-
 
 <!-- Bootrap carousel is used to display prominent pictures to motivate the user to signup -->
     <div id="carousel" class="carousel slide customCarousel" data-ride="carousel">
@@ -121,30 +100,26 @@ gtag('config', 'UA-121981597-1');
 </div>
 </div>
 
-
-
-<!-- <script>
-
-    $("#signup_btn").click(function(){
-      var signup = $("#signupModal");
-        signup.fadeOut();
-    });
-
-</script> -->
-
-<!-- <script> It is unclear why this jquery code doesn't work. It is the correct syntax.
-    $("#signup_btn").click(function(){
-    $("#signupModal").fadeIn();
-});
-</script> -->
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
+<!--
+jquery script is refereneced once to the latest version to avoid issues with other scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+<script>
+
+// Replicated functionality of bootstraps modals with jquery below
+$("#signup_btn").click(function(){
+    var signup = $("#signupModal"); // set the variable with the value of #signupModal
+    var modalBG = $(".fade"); // set the variable with the value of #fade
+    var bodyClass = $(".background"); // set the variable with the value of .background
+    signup.fadeOut("slow"); // run the fadeout function on the variable signup
+    modalBG.fadeOut("slow"); // run the fadeout function on the variable modalBG
+    modalBG.removeClass("show"); // remove the class show to replicate bootstrap modal
+    bodyClass.removeClass("modal-open"); // remove the class model-open to replicate bootstrap modal
+    signup.attr("aria-hidden", "true"); // set the attribute of the variable signup. set it to aria-hidden=true
+});
+
+</script>
 </html>
