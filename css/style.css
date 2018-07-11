@@ -36,10 +36,12 @@ body{
 
 h1{
   color:#ccb87e;
-  font-family: "Droid Sans", sans-serif;
-  font-weight: bold;
-  font-size: 70px;
-  }
+  font-family: "Stencil", serif;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  display: inline-block;
+}
 
 
 h2{
@@ -69,15 +71,6 @@ h5{
   font-family: "Stencil", serif;
   font-weight: normal;
   font-size: 35px;
-}
-
-h6{
-  color:#ccb87e;
-  font-family: "Stencil", serif;
-  font-weight: normal;
-  font-size: 50px;
-  text-align: center;
-  display: inline-block;
 }
 
 p,li{
