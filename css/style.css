@@ -11,7 +11,7 @@ body, html {
 .background
 {
   background-image: url("../images/motivation_opacity_dark.jpg");
-
+  background-attachment: fixed;
   /* Full height */
    height: 100%;
 
